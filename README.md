@@ -1,15 +1,20 @@
 # News-Aggregator
 
-create venv:-
+generate news api key from
+       https://newsapi.org/
+
+Steps to be followed
+1. create venv:-
 
 python -m venv env
 
-activate venv :-
+2. activate venv :-
 
 .\env\Scripts\activate 
 
-install all the requirements
+3. install all the requirements
 
-To run this project
+4.To run this project
 
 python manage.py runserver
+
