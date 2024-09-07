@@ -1,0 +1,60 @@
+from django.urls import path,include
+from. import views
+urlpatterns = [
+    path('',views.home,name="home"),
+    path('bnews',views.bnews,name="bnews"),
+    path('enews',views.enews,name="enews"),
+    path('hnews',views.hnews,name="hnews"),
+    path('scnews',views.scnews,name="scnews"),
+    path('snews',views.snews,name="snews"),
+    path('tnews',views.tnews,name="tnews"),
+
+    path('canews',views.canews,name="canews"),
+    path('cabnews',views.cabnews,name="cabnews"),
+    path('caenews',views.caenews,name="caenews"),
+    path('cahnews',views.cahnews,name="cahnews"),
+    path('cascnews',views.cascnews,name="cascnews"),
+    path('casnews',views.casnews,name="casnews"),
+    path('catnews',views.catnews,name="catnews"),
+
+    path('frnews',views.frnews,name="frnews"),
+    path('frbnews',views.frbnews,name="frbnews"),
+    path('frenews',views.frenews,name="frenews"),
+    path('frhnews',views.frhnews,name="frhnews"),
+    path('frscnews',views.frscnews,name="frscnews"),
+    path('frsnews',views.frsnews,name="frsnews"),
+    path('frtnews',views.frtnews,name="frtnews"),
+
+    path('aunews',views.aunews,name="aunews"),
+    path('aubnews',views.aubnews,name="aubnews"),
+    path('auenews',views.auenews,name="auenews"),
+    path('auhnews',views.auhnews,name="auhnews"),
+    path('auscnews',views.auscnews,name="auscnews"),
+    path('ausnews',views.ausnews,name="ausnews"),
+    path('autnews',views.autnews,name="autnews"),
+
+    path('krnews',views.krnews,name="krnews"),
+    path('krbnews',views.krbnews,name="krbnews"),
+    path('krenews',views.krenews,name="krenews"),
+    path('krhnews',views.krhnews,name="krhnews"),
+    path('krscnews',views.krscnews,name="krscnews"),
+    path('krsnews',views.krsnews,name="krsnews"),
+    path('krtnews',views.krtnews,name="krtnews"),
+
+    path('thnews',views.thnews,name="thnews"),
+    path('thbnews',views.thbnews,name="thbnews"),
+    path('thenews',views.thenews,name="thenews"),
+    path('thhnews',views.thhnews,name="thhnews"),
+    path('thscnews',views.thscnews,name="thscnews"),
+    path('thsnews',views.thsnews,name="thsnews"),
+    path('thtnews',views.thtnews,name="thtnews"),
+
+    path('itnews',views.itnews,name="itnews"),
+    path('itbnews',views.itbnews,name="itbnews"),
+    path('itenews',views.itenews,name="itenews"),
+    path('ithnews',views.ithnews,name="ithnews"),
+    path('itscnews',views.itscnews,name="itscnews"),
+    path('itsnews',views.itsnews,name="itsnews"),
+    path('ittnews',views.ittnews,name="ittnews"),
+    
+]
