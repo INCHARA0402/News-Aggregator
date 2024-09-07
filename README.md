@@ -8,3 +8,8 @@ activate venv :-
 
 .\env\Scripts\activate 
 
+install all the requirements
+
+To run this project
+
+python manage.py runserver
